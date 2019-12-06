@@ -1,0 +1,41 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.burger:focus {
+  outline: none;
+}
+
+.burger > div {
+  width: 2em;
+  height: 0.25em;
+  border-radius: 10px;
+  background: var(--dark-blue);
+  transition: all 0.3s linear;
+  transform-origin: 1px;
+  z-index: 2;
+  user-select: none;
+}
+
+.first__line {
+  transform: rotate(45deg);
+}
+
+.second__line {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.third__line {
+  transform: rotate(-45deg);
+}

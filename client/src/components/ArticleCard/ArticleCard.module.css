@@ -1,0 +1,38 @@
+.article__card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.article__card > *:not(:first-child) {
+  padding: 1em 0;
+}
+
+.article__card > *:not(:first-child) {
+  border-bottom: 1px dotted var(--darker-grey);
+}
+
+.article__card__image {
+  object-fit: cover;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.article__card__title {
+  font-weight: 700;
+}
+
+.article__card__info {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.article__card__info > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.article__card__excerpt {
+  font-size: 0.8rem;
+  line-height: 2;
+}

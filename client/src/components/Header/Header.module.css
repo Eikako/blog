@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5em;
+  padding: 0 1.56em;
+  border-bottom: 1px solid var(--grey);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.header__line {
+  width: 0.08em;
+  height: 1em;
+  background: var(--grey);
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}

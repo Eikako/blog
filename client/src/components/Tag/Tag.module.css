@@ -1,0 +1,13 @@
+.tag {
+  text-decoration: none;
+  color: grey;
+  background: var(--grey);
+  font-size: 0.8rem;
+  padding: 0.8em;
+  border-radius: 10px;
+}
+
+.tag:hover {
+  background: var(--blue);
+  color: var(--dark-white);
+}

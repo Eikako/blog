@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+:root {
+  --grey: rgb(229, 230, 232);
+  --darker-grey: rgb(221, 221, 221);
+  --dark-blue: rgb(33, 46, 74);
+  --blue: rgb(64, 117, 219);
+  --darker-white: rgb(241, 245, 249);
+  --dark-white: rgb(233, 237, 240);
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--darker-white);
+  overflow-y: scroll;
+}
+
+.app > div:nth-child(2) {
+  flex: 1;
+}

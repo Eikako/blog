@@ -1,0 +1,15 @@
+.box__header {
+  display: flex;
+  align-items: center;
+}
+
+.box__title {
+  font-weight: 700;
+}
+
+.horizontal__line {
+  flex: 1;
+  height: 1px;
+  background: var(--grey);
+  margin-left: 1em;
+}

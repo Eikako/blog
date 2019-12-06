@@ -1,0 +1,32 @@
+.recent__post {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 1em 2em;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.recent__post:hover .recent__post__title {
+  color: var(--blue);
+}
+
+.recent__post__img {
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  border-radius: 50%;
+}
+
+.recent__post__title {
+  grid-row: 1/2;
+  grid-column: 2/-1;
+  font-weight: 700;
+}
+
+.recent__post__date {
+  grid-row: 2/-1;
+  grid-column: 2/-1;
+}
